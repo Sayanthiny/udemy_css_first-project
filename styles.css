@@ -1,0 +1,142 @@
+body{
+    font-family:  Arial, sans-serif;
+}
+
+nav{
+    text-align: right;
+   
+}
+
+.menu-items{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    margin:8px;
+}
+
+.profile-pic{
+    width: 32px;
+    height: 32px;
+}
+
+.menu-items:hover{
+    text-decoration: underline; 
+}
+
+#dropdown-menu{
+    position: relative;
+    top: -8;
+    margin:8px;
+}
+
+section{
+    text-align: center;
+    display: inline-block;
+
+}
+.search-box{
+    width: 100%;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    
+}
+
+.input-wrapper{
+    width: 582px;
+    position: relative;
+    margin: 20px 350px;
+   
+    
+
+}
+.input-wrapper > img{
+    position: absolute;
+    top:10px;
+    right:0;
+    width: 28px;   
+
+}
+
+.search-box:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.search-box:focus{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.custom-btn{
+    background-color:#f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+    margin: 10px;
+
+}
+
+.custom-btn:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+
+}
+
+.dropdown-card{
+    width: 250px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    align-items: right;
+    right:50px;
+    display: none;
+
+}
+
+.image-items{
+    display: inline-block;
+    width: 50px;
+    float: left;
+    padding: 16px;
+    align-items: center;
+    
+}
+
+.image-items:hover{
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 8px;
+}
+
+
+.image-items > img{
+    width: 50px;
+    height: 50px;
+}
+
+.label{ 
+    color: rgba(0, 0, 0, 0.87)
+}
+
+.dropdown-wrapper{
+    display: inline-block;
+}
+
+
+.dropdown-wrapper:hover .dropdown-card{
+    display:block;
+}
+
+
